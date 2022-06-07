@@ -1,0 +1,12 @@
+   1 Open { account: "Bob" }
+   2 Open { account: "Alice" }
+   3 Deposit { account: "Alice", amount: 50 }
+   4 Deposit { account: "Bob", amount: 150 }
+   5 Open { account: "Charlie" }
+   6 Deposit { account: "Charlie", amount: 50 }
+   7 Withdraw { account: "Dave", amount: 20 }
+   8 Transfer { src: "Bob", dst: "Alice", amount: 30 }
+   9 Open { account: "Dave" }
+  10 Deposit { account: "Dave", amount: 100 }
+  11 Transfer { src: "Dave", dst: "Charlie", amount: 10 }
+  12 Withdraw { account: "Charlie", amount: 60 }

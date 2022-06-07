@@ -1,0 +1,16 @@
+[package]
+name = "spsc_bounded_cached"
+version = "0.1.0"
+authors = ["imag1ne <zhuxudong1992@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "spsc_bounded_cached"
+
+[dev-dependencies]
+criterion = "0.3"
+lazy_static = "1.4"
+
+[[bench]]
+name = "benchmark"
+harness = false

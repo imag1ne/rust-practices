@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "spsc_bounded",
+    "spsc_bounded_cached",
+    "mpsc_bounded",
+    "mpsc_bounded_cached",
+    "groupchat",
+    "recovery",
+    "consensus",
+]

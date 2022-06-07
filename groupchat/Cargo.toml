@@ -1,0 +1,13 @@
+[package]
+name = "groupchat"
+version = "0.1.0"
+authors = ["imag1ne <zhuxudong1992@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "chatlib"
+
+[dependencies]
+mio = { version = "0.8", features = ["os-poll", "net"] }
+async-std = "1.11"
+futures = "0.3"

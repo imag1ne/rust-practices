@@ -1,0 +1,15 @@
+[package]
+name = "consensus"
+version = "0.1.0"
+authors = ["imag1ne <zhuxudong1992@gmail.com>", "rove"]
+edition = "2021"
+
+[dependencies]
+rand = "0.7"
+rand_distr = "0.2"
+tracing = { version = "0.1", features = ["release_max_level_info"] }
+
+[dependencies.tracing-subscriber]
+version = "0.2.0-alpha.4"
+default-features = false
+features = ["fmt", "ansi", "chrono"]
